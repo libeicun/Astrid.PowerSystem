@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{4db3d033-f183-46cd-9c53-6430f77d72e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{1d7bd670-b237-4175-996f-cf05a653c12a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\app">
+      <UniqueIdentifier>{a0a9a69a-528c-4a55-9dae-c1e4e8058c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\app\ui">
+      <UniqueIdentifier>{10832d9c-15ba-4452-bff4-9352ca47ba43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\app\ui\console">
+      <UniqueIdentifier>{aaf49e86-4404-48d6-8edb-3bb347b27d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\app\ui\graphic">
+      <UniqueIdentifier>{94ab9078-3d23-4690-993a-e22f34ffb041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\config">
+      <UniqueIdentifier>{5112cab2-7c00-43ec-b79d-879f2b9a218d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\data_io">
+      <UniqueIdentifier>{778e9bca-4edd-4598-b9b6-a9a7f5dbece2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\defs">
+      <UniqueIdentifier>{ffefb753-2aa5-4b1a-bde2-9385eef9407d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\pf_calc">
+      <UniqueIdentifier>{26ea1282-8f0e-440a-b9ba-1406b6dd7b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\powersys_calc">
+      <UniqueIdentifier>{5f404d73-8839-426e-ba6b-102f5d4208dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\powersys_calc\methods">
+      <UniqueIdentifier>{f6f5db9c-e176-48c8-a898-796102f65a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\powersys_calc\methods\nl">
+      <UniqueIdentifier>{300cb2bb-e537-4ba1-ae73-073fcb761ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\powersys_calc\sta">
+      <UniqueIdentifier>{34bfd8f7-b829-4700-baf8-c4e254ba9a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\powersys_calc\pf">
+      <UniqueIdentifier>{5ef98e46-559f-4830-adbd-e55d28d82b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\support">
+      <UniqueIdentifier>{9cc4e4ff-495a-44af-ab46-fbdeeaca62aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\support\cui">
+      <UniqueIdentifier>{f7b45c7d-3800-40d7-af9a-5c8f157f6bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\support\cui\controller">
+      <UniqueIdentifier>{85418dd3-4ce4-4b57-8b89-8df9cf2634d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\support\cui\controller\console">
+      <UniqueIdentifier>{87c08d25-e44b-4baf-ad44-cd11ebd0758b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\support\cui\input_obtainer">
+      <UniqueIdentifier>{8d74eb21-fd83-4b2b-ac54-0feadd4bdf23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\support\cui\input_parser">
+      <UniqueIdentifier>{90d09250-012b-4036-88a9-7b419764a903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\support\matrix">
+      <UniqueIdentifier>{05104d62-e114-4a9e-950c-2f3b43d706c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\support\sp_1.3_c">
+      <UniqueIdentifier>{549293e0-dcca-4d5c-9e53-99ce402be726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\support\sp_1.3_cplusplus">
+      <UniqueIdentifier>{3a774b07-7ead-4220-afd7-42d1e8388ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\support\super_lu_4.3">
+      <UniqueIdentifier>{d2b2b035-9dc3-4937-a645-1d79a99cc9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\support\sp_1.3_cplusplus\inc">
+      <UniqueIdentifier>{94b1a60c-3c3a-4edc-b29c-c308fea04232}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Debug\checkef.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="..\Debug\ieee5.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="..\Debug\l413.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="..\Debug\result_output.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="..\Debug\test_data_input.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="..\Debug\test_data_output.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="..\Debug\test_lu_picompose_input.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="..\Debug\test_lu_picompose_output.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Debug\IEEE14.dat">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\Debug\IEEE118.dat">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\Debug\IEEE300.dat">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\Debug\IEEE1047.dat">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\app\ui\console\main.cpp">
+      <Filter>Src\app\ui\console</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\app\ui\console\pf_calc_ui_console_io.cpp">
+      <Filter>Src\app\ui\console</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\app\ui\console\UserProcesses.cpp">
+      <Filter>Src\app\ui\console</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\data_io\DataFileReader.cpp">
+      <Filter>Src\data_io</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\data_io\DataFileReaderForIeee.cpp">
+      <Filter>Src\data_io</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\data_io\DataFileReaderForLBCTest.cpp">
+      <Filter>Src\data_io</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\data_io\DataIOTool.cpp">
+      <Filter>Src\data_io</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\data_io\PowerFlowCalcObjSelectorIeee.cpp">
+      <Filter>Src\data_io</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\defs\PfCalcNode.cpp">
+      <Filter>Src\defs</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\pf_calc\PowerFlowCalcObjSelector.cpp">
+      <Filter>Src\pf_calc</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\powersys_calc\PowerSysCalculation.cpp">
+      <Filter>Src\powersys_calc</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\powersys_calc\methods\MethodSolvePowerSysNlEquations.cpp">
+      <Filter>Src\powersys_calc\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\powersys_calc\methods\nl\MethodNewtonRaphson.cpp">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonAiiBiiBuilder.cpp">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonAiiBiiBuilder_General.cpp">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonAiiBiiBuilder_IterCSR.cpp">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonDeltaPQU2Builder.cpp">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonDeltaPQU2Builder_General.cpp">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonDeltaPQU2Builder_IterCSR.cpp">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonDeltaPQU2Builder_IterRows.cpp">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonHnjlsrBuilder.cpp">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonHnjlsrBuilder_General.cpp">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonHnjlsrBuilder_IterCSR.cpp">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\powersys_calc\pf\PowerSysCalcFlow.cpp">
+      <Filter>Src\powersys_calc\pf</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\powersys_calc\sta\PowerSysCalcStability.cpp">
+      <Filter>Src\powersys_calc\sta</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Cui\Controller\FunctionPtr.cpp">
+      <Filter>Src\support\cui\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Cui\Controller\UiControllerBasedOnString.cpp">
+      <Filter>Src\support\cui\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Cui\Controller\Console\BindingsOfUserCmdCodeAndString.cpp">
+      <Filter>Src\support\cui\controller\console</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Cui\Controller\Console\ConsoleUiStatusTableLine.cpp">
+      <Filter>Src\support\cui\controller\console</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Cui\Controller\Console\ConsoleUiTransform.cpp">
+      <Filter>Src\support\cui\controller\console</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Cui\Controller\Console\UiControllerConsole.cpp">
+      <Filter>Src\support\cui\controller\console</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Cui\InputObtainer\UserInputObtainer.cpp">
+      <Filter>Src\support\cui\input_obtainer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Cui\InputObtainer\UserInputObtainerConsole.cpp">
+      <Filter>Src\support\cui\input_obtainer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Cui\InputObtainer\UserInputObtainerTextFile.cpp">
+      <Filter>Src\support\cui\input_obtainer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Cui\InputParser\UserInputParser.cpp">
+      <Filter>Src\support\cui\input_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Cui\InputParser\UserInputPaserCSyntax.cpp">
+      <Filter>Src\support\cui\input_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Matrix\DMatrix.cpp">
+      <Filter>Src\support\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Matrix\Matrix.cpp">
+      <Filter>Src\support\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Matrix\SMatrix.cpp">
+      <Filter>Src\support\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Matrix\SMatrixCS.cpp">
+      <Filter>Src\support\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Matrix\SMatrixCSC.cpp">
+      <Filter>Src\support\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Matrix\SMatrixCSR.cpp">
+      <Filter>Src\support\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Matrix\SMatrixSP1_3.cpp">
+      <Filter>Src\support\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\MatrixCalculator.cpp">
+      <Filter>Src\support</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\NumericGeneral.cpp">
+      <Filter>Src\support</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\pf_calc_debug_functions.cpp">
+      <Filter>Src\support</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\stringExtends.cpp">
+      <Filter>Src\support</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\Timing.cpp">
+      <Filter>Src\support</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\sp1.3_cplusplus\spallocate.cpp">
+      <Filter>Src\support\sp_1.3_cplusplus</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\sp1.3_cplusplus\spbuild.cpp">
+      <Filter>Src\support\sp_1.3_cplusplus</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\sp1.3_cplusplus\spfactor.cpp">
+      <Filter>Src\support\sp_1.3_cplusplus</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\sp1.3_cplusplus\spfortran.cpp">
+      <Filter>Src\support\sp_1.3_cplusplus</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\sp1.3_cplusplus\spoutput.cpp">
+      <Filter>Src\support\sp_1.3_cplusplus</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\sp1.3_cplusplus\spsolve.cpp">
+      <Filter>Src\support\sp_1.3_cplusplus</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\support\sp1.3_cplusplus\sputils.cpp">
+      <Filter>Src\support\sp_1.3_cplusplus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\app\ui\console\pf_calc_ui_console_def.h">
+      <Filter>Src\app\ui\console</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\app\ui\console\pf_calc_ui_console_io.h">
+      <Filter>Src\app\ui\console</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\app\ui\console\UserCmdAndStatus.h">
+      <Filter>Src\app\ui\console</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\app\ui\console\UserProcesses.h">
+      <Filter>Src\app\ui\console</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\config\pf_calc_sys_cfg.h">
+      <Filter>Src\config</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\data_io\DataFileReader.h">
+      <Filter>Src\data_io</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\data_io\DataFileReaderForIeee.h">
+      <Filter>Src\data_io</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\data_io\DataFileReaderForLBCTest.h">
+      <Filter>Src\data_io</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\data_io\DataIOTool.h">
+      <Filter>Src\data_io</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\data_io\pf_calc_data_io.h">
+      <Filter>Src\data_io</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\data_io\PowerFlowCalcObjSelectorIeee.h">
+      <Filter>Src\data_io</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\defs\def_data_type_fptr.h">
+      <Filter>Src\defs</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\defs\pf_calc_def_data_type.h">
+      <Filter>Src\defs</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\defs\PfCalcNode.h">
+      <Filter>Src\defs</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\pf_calc\PowerFlowCalcObjSelector.h">
+      <Filter>Src\pf_calc</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\powersys_calc\PowerSysCalculation.h">
+      <Filter>Src\powersys_calc</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\powersys_calc\methods\MethodSolvePowerSysNlEquations.h">
+      <Filter>Src\powersys_calc\methods</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\powersys_calc\methods\nl\MethodNewtonRaphson.h">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonAiiBiiBuilder.h">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonAiiBiiBuilder_General.h">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonAiiBiiBuilder_IterCSR.h">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonDeltaPQU2Builder.h">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonDeltaPQU2Builder_General.h">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonDeltaPQU2Builder_IterCSR.h">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonDeltaPQU2Builder_IterRows.h">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonHnjlsrBuilder.h">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonHnjlsrBuilder_General.h">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\powersys_calc\methods\nl\MethodNewtonRaphsonHnjlsrBuilder_IterCSR.h">
+      <Filter>Src\powersys_calc\methods\nl</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\powersys_calc\pf\PowerSysCalcFlow.h">
+      <Filter>Src\powersys_calc\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\powersys_calc\sta\PowerSysCalcStability.h">
+      <Filter>Src\powersys_calc\sta</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Cui\Controller\FunctionPtr.h">
+      <Filter>Src\support\cui\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Cui\Controller\UiControllerBasedOnString.h">
+      <Filter>Src\support\cui\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Cui\Controller\Console\BindingsOfUserCmdCodeAndString.h">
+      <Filter>Src\support\cui\controller\console</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Cui\Controller\Console\ConsoleUiStatusTableLine.h">
+      <Filter>Src\support\cui\controller\console</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Cui\Controller\Console\ConsoleUiTransform.h">
+      <Filter>Src\support\cui\controller\console</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Cui\Controller\Console\UiControllerConsole.h">
+      <Filter>Src\support\cui\controller\console</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Cui\InputObtainer\UserInputObtainer.h">
+      <Filter>Src\support\cui\input_obtainer</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Cui\InputObtainer\UserInputObtainerConsole.h">
+      <Filter>Src\support\cui\input_obtainer</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Cui\InputObtainer\UserInputObtainerTextFile.h">
+      <Filter>Src\support\cui\input_obtainer</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Cui\InputParser\UserInputParser.h">
+      <Filter>Src\support\cui\input_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Cui\InputParser\UserInputPaserCSyntax.h">
+      <Filter>Src\support\cui\input_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Matrix\DMatrix.h">
+      <Filter>Src\support\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Matrix\Matrix.h">
+      <Filter>Src\support\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Matrix\SMatrix.h">
+      <Filter>Src\support\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Matrix\SMatrix_Enum.h">
+      <Filter>Src\support\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Matrix\SMatrixCS.h">
+      <Filter>Src\support\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Matrix\SMatrixCSC.h">
+      <Filter>Src\support\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Matrix\SMatrixCSR.h">
+      <Filter>Src\support\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Matrix\SMatrixSP1_3.h">
+      <Filter>Src\support\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\MatrixCalculator.h">
+      <Filter>Src\support</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\NumericGeneral.h">
+      <Filter>Src\support</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\pf_calc_debug_defs.h">
+      <Filter>Src\support</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\stringExtends.h">
+      <Filter>Src\support</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\Timing.h">
+      <Filter>Src\support</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\sp1.3_cplusplus\inc\spconfig.h">
+      <Filter>Src\support\sp_1.3_cplusplus\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\sp1.3_cplusplus\inc\spdefs.h">
+      <Filter>Src\support\sp_1.3_cplusplus\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\support\sp1.3_cplusplus\inc\spmatrix.h">
+      <Filter>Src\support\sp_1.3_cplusplus\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Src\support\lib\BlasLib.lib">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="Src\support\lib\sparse1_3lib.lib">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="Src\support\lib\superLuLib.lib">
+      <Filter>Lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

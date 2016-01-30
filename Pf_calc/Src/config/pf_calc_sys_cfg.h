@@ -1,0 +1,9 @@
+#ifndef PF_CALC_SYS_CFG_H
+#define PF_CALC_SYS_CFG_H
+
+#define PF_CALC_UI_CONSOLE_CMD_STRING_CALC_POWER_FLOW	"powerflowpflfloadflow"
+#define  PQ_USE_1BASE_VAL	1
+
+#define PF_CALC_DATA_TYPE double
+#define PF_CALC_DATA_INIT_VAL_SPEC	11.11111111111111111
+#endif 

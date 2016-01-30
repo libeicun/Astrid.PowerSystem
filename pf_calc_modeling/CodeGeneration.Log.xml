@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///D:/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="代码生成/文本转换记录">
+  <MessageClass Name="Message" Label="消息" Option="显示提供相关信息的消息" />
+  <MessageClass Name="Warning" Label="警告" Option="显示警告" />
+  <MessageClass Name="Error" Label="错误" Option="显示错误" />
+  <MessageClass Name="Property" Label="属性" Option="显示元数据" />
+  <MessageClass Name="Diagnostic" Label="消息" Option="显示诊断消息" />
+  <Message Timestamp="2014-10-24T23:49:14" Importance="High" Text="已启动代码生成或文本转换。" />
+  <Message Timestamp="2014-10-24T23:49:16" Importance="Diagnostic" Text="名称 = ClassTemplate" />
+  <Message Timestamp="2014-10-24T23:49:16" Importance="Diagnostic" Text="覆盖 = True" />
+  <Message Timestamp="2014-10-24T23:49:16" Importance="Diagnostic" Text="ProjectPath = ..\pf_calc_modelingLib\pf_calc_modelingLib.csproj" />
+  <Message Timestamp="2014-10-24T23:49:16" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2014-10-24T23:49:16" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2014-10-24T23:49:16" Importance="Diagnostic" Text="TemplateFilePath = D:\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2014-10-24T23:49:16" Importance="Diagnostic" Text="ResolvedTemplateFilePath = D:\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2014-10-24T23:49:16" Importance="Medium" Text="pf_calc_modeling 的文本模板绑定: “ClassTemplate”会将 ClassTemplate.t4 应用于: “pf_calc_modeling::ConsoleUiManager”-  (Class), “pf_calc_modeling::ConsoleUiConfig”-  (Class), “pf_calc_modeling::ConsoleUiCtrlBlock”-  (Class), “pf_calc_modeling::ConsoleUiCfgFile”-  (Class), “pf_calc_modeling::ConsoleUiCfgFileLBCTEST”-  (Class), “pf_calc_modeling::ConsoleUiCfgFileGBT”-  (Class) " />
+  <Message Timestamp="2014-10-24T23:49:51" Importance="Medium" Text="新增项目: D:\系统文档\Documents\Visual Studio 2013\Projects\pf_calc\pf_calc_modelingLib\pf_calc_modelingLib.csproj" />
+  <Message Timestamp="2014-10-24T23:49:51" Importance="Medium" Text="“pf_calc_modeling::ConsoleUiManager”-  (Class) : 成功(已创建文件) - D:\系统文档\Documents\Visual Studio 2013\Projects\pf_calc\pf_calc_modelingLib\GeneratedCode\ConsoleUiManager.cs" />
+  <Message Timestamp="2014-10-24T23:49:54" Importance="Medium" Text="“pf_calc_modeling::ConsoleUiConfig”-  (Class) : 成功(已创建文件) - D:\系统文档\Documents\Visual Studio 2013\Projects\pf_calc\pf_calc_modelingLib\GeneratedCode\ConsoleUiConfig.cs" />
+  <Message Timestamp="2014-10-24T23:49:54" Importance="Medium" Text="“pf_calc_modeling::ConsoleUiCtrlBlock”-  (Class) : 成功(已创建文件) - D:\系统文档\Documents\Visual Studio 2013\Projects\pf_calc\pf_calc_modelingLib\GeneratedCode\ConsoleUiCtrlBlock.cs" />
+  <Message Timestamp="2014-10-24T23:49:55" Importance="Medium" Text="“pf_calc_modeling::ConsoleUiCfgFile”-  (Class) : 成功(已创建文件) - D:\系统文档\Documents\Visual Studio 2013\Projects\pf_calc\pf_calc_modelingLib\GeneratedCode\ConsoleUiCfgFile.cs" />
+  <Message Timestamp="2014-10-24T23:49:56" Importance="Medium" Text="“pf_calc_modeling::ConsoleUiCfgFileLBCTEST”-  (Class) : 成功(已创建文件) - D:\系统文档\Documents\Visual Studio 2013\Projects\pf_calc\pf_calc_modelingLib\GeneratedCode\ConsoleUiCfgFileLBCTEST.cs" />
+  <Message Timestamp="2014-10-24T23:49:56" Importance="Medium" Text="“pf_calc_modeling::ConsoleUiCfgFileGBT”-  (Class) : 成功(已创建文件) - D:\系统文档\Documents\Visual Studio 2013\Projects\pf_calc\pf_calc_modelingLib\GeneratedCode\ConsoleUiCfgFileGBT.cs" />
+  <Message Timestamp="2014-10-24T23:49:56" Importance="Diagnostic" Text="名称 = StructTemplate" />
+  <Message Timestamp="2014-10-24T23:49:56" Importance="Diagnostic" Text="覆盖 = True" />
+  <Message Timestamp="2014-10-24T23:49:56" Importance="Diagnostic" Text="ProjectPath = ..\pf_calc_modelingLib\pf_calc_modelingLib.csproj" />
+  <Message Timestamp="2014-10-24T23:49:56" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2014-10-24T23:49:56" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2014-10-24T23:49:56" Importance="Diagnostic" Text="TemplateFilePath = D:\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2014-10-24T23:49:56" Importance="Diagnostic" Text="ResolvedTemplateFilePath = D:\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2014-10-24T23:49:56" Importance="Medium" Text="pf_calc_modeling 的文本模板绑定: “StructTemplate”会将 StructTemplate.t4 应用于: “pf_calc_modeling::ConsoleUiManager”-  (Class), “pf_calc_modeling::ConsoleUiConfig”-  (Class), “pf_calc_modeling::ConsoleUiCtrlBlock”-  (Class), “pf_calc_modeling::ConsoleUiCfgFile”-  (Class), “pf_calc_modeling::ConsoleUiCfgFileLBCTEST”-  (Class), “pf_calc_modeling::ConsoleUiCfgFileGBT”-  (Class) " />
+  <Message Timestamp="2014-10-24T23:49:58" Importance="Diagnostic" Text="“pf_calc_modeling::ConsoleUiManager”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2014-10-24T23:49:58" Importance="Diagnostic" Text="“pf_calc_modeling::ConsoleUiConfig”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2014-10-24T23:49:58" Importance="Diagnostic" Text="“pf_calc_modeling::ConsoleUiCtrlBlock”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2014-10-24T23:49:58" Importance="Diagnostic" Text="“pf_calc_modeling::ConsoleUiCfgFile”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2014-10-24T23:49:58" Importance="Diagnostic" Text="“pf_calc_modeling::ConsoleUiCfgFileLBCTEST”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2014-10-24T23:49:59" Importance="Diagnostic" Text="“pf_calc_modeling::ConsoleUiCfgFileGBT”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2014-10-24T23:49:59" Importance="Diagnostic" Text="选定内容包含未绑定到模板的 5 元素。" />
+  <Message Timestamp="2014-10-24T23:49:59" Importance="Diagnostic" Text="“pf_calc_modeling::”-  (Association):  没有绑定的模板。" />
+  <Message Timestamp="2014-10-24T23:49:59" Importance="Diagnostic" Text="“pf_calc_modeling::”-  (Association):  没有绑定的模板。" />
+  <Message Timestamp="2014-10-24T23:49:59" Importance="Diagnostic" Text="“pf_calc_modeling::”-  (Association):  没有绑定的模板。" />
+  <Message Timestamp="2014-10-24T23:49:59" Importance="Diagnostic" Text="“bf339b35-7008-4155-8e18-4d5ddf49d0d1”-  (Generalization):  没有绑定的模板。" />
+  <Message Timestamp="2014-10-24T23:49:59" Importance="Diagnostic" Text="“41db195e-2541-4a31-afe1-ea7c901d30a4”-  (Generalization):  没有绑定的模板。" />
+  <Message Timestamp="2014-10-24T23:49:59" Importance="High" Text="代码生成完成。错误:  0。警告:  0。" />
+</Log>
